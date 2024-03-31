@@ -1,0 +1,149 @@
+a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+/* 헤더 */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 6px;
+  margin: 0 20px;
+}
+
+.left_header, .right_header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ft-14 {
+  font-size: 14px;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* 메인 부분 */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: calc(100vh - 352px);
+  margin-bottom: 180px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.container_search {
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  width: 584px;
+  height: 44px;
+}
+
+.wrap_search {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.icon_search {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.wrap_input {
+  width: 400px;
+}
+
+.input_search {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.icon {
+  padding: 0 8px;
+}
+
+.container_btn {
+  display: flex;
+  gap: 20px;
+}
+
+.search_below_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 38px;
+  padding: 16px;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search_below_btn:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+/* 푸터 부분 */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2; 
+  height: 100px;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  height: 50px;
+  font-size: 15px;
+  color: #1f1f1f;
+  border-bottom: 1px solid #dadce0;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 50px;
+}
+
+.anchorInform {
+  padding: 15px;
+}
